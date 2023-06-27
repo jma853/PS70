@@ -23,18 +23,78 @@
 <xmp style="display:none;">
 <br> 
 
-#### Week 1: Introduction
+#### Week 1: 2D Design & Cutting
 
-Hi! I'm James. I've been looking forward to this class for a very long time! I really appreciate being given the opportunity to come to Harvard to cut my teeth in a real machine shop.
+Tutorial 
 
-Here's a little bit about me:
+![photo for tutorial photo here](./01_intro/tutorial.png)
+The tutorial I watched introduces you to the line tool, arc tool and dimension tool. I used all three tools to make this shape. I used the dimension tool to specify the lengths, diameters and angles of the shape.
 
-1. I currently attend boarding school in Massachusetts, but I was born in Beijing and I live in Hong Kong.
+![photo for tutorial photo 2 here](./01_intro/tutorial2.png)
+The tutorial then teaches you how to use construction lines, circles and the tangent constraint. Following the tutorial, I made construction lines and placed two circles of different sizes on the same horizontal construction line. I made two lines that connected the two circles, making sure to not apply the tangent constraint on them while I was making them. I then used the tangent constraint on the two lines, making them barely touch the circles. I deleted any extra lines poking out between the tangent line and circle.
 
-2. This might sound irrelevant, but I used to be very unfit. This caused me no shortage of problems growing up - my obesity caused me to not only have physical health problems but also neutered my self-esteem and self-respect. After picking up outdoor sports, I have dropped almost 90lbs and become physically and mentally healthier. Now, I have a passion for everything outdoors - especially mountain biking. However, after riding many mountain bikes (rentals), I couldn't help but notice a lot of them had the tendency of wanting to throw you over the bars, have twitchy handling at speed or in corners, etc. After some research, I found that the geometry and suspension design of a mountain bike have an outsized effect on its handling. I also learned that there aren't any mountain bikes being sold right now that have geometry and suspension that tick every box on what I'm looking for. I also discovered that there is a small but passionate community of people online making their own mountain bikes because of the same problems. Thanks to their encouragement, I was inspired to do the same. 
+//////////////////////////////////////////////////////////////////
 
-In other words, I'd like my final project to be a 3D printed (hopefully to scale) prototype of a full-suspension mountain bike frame of my own design. I realized a little too late last class that this might not be possible because of the electronics and microcontroller requirements for the final project. If I can't do a mountain bike as my final project, I'd like to make a remote-controlled dropper seatpost that can be replenished with batteries you can buy from a convenience store. There is currently only one option for remote-controlled dropper seatposts on the market, and it is $800 and uses a proprietary battery.
+Modeling Household Objects
 
+Chess Piece
+
+![canvas for chess piece](./01_intro/canvas.png)
+1. Added canvas for chess piece. I used a .png I found online because my phone's camera lens distorts the appearance of the chess piece when I try to take a photo of it.
+
+![tracing canvas](./01_intro/traceREAL.png)
+2. Traced canvas w/ arc & fit point spline tools. Used dimension tool to scale bottom of chess piece to half of the 1.6cm diameter I measured - so 0.8cm.
+
+![revolve tool](./01_intro/revolve.png)
+3. Used revolve tool to revolve the piece 360 degrees.
+
+Lego Brick
+
+![line tool demo](./01_intro/lego1.png)
+1. Created new sketch > line tool > sketch perimeter of brick. Used dimension tool to apply measured lengths.
+
+![extruding](./01_intro/lego2.png)
+2. Extruded by measured height.
+
+![sketching circles](./01_intro/lego3.png)
+3. Created circles on top of brick that are 4mm wide and 4mm apart from each side.
+
+![extruding circle](./01_intro/lego4.png)
+4. Extruded circle by the measured ~1.6mm height.
+
+![rectangular pattern tool](./01_intro/lego5.png)
+5. Used rectangular pattern tool to make 2x4 rows of equally-spaced circles that are 8mm apart.
+
+![shell tool](./01_intro/lego6ShellTool.png)
+6. Used shell tool and hollow out the bottom of the brick towards the inside, leaving a wall with the measured ~1.6mm width.
+
+![circles at the bottom](./01_intro/lego6.png)
+7. Made two circles. The one on the outside is ~7mm; the one on the inside is ~5mm.
+
+![extruding circles](./01_intro/lego7.png)
+8. Extruded the space between the two circles by the measured ~8mm.
+
+![rectangular pattern](./01_intro/lego8RectPattern.png)
+9. Used the rectangular pattern tool to make one row of three, spaced ~8mm apart.
+
+![fileting](./01_intro/lego9.png)
+10. I decided to filet the tops of the circles. I selected the top faces of the extruded circles one by one and fileted them. It would have been quicker if I had fileted the top of the circle before I made the rectangular pattern - I'll keep this in mind next time around.
+
+![full piece](./01_intro/legoFull.png)
+The full Lego piece.
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+Pressfit Assignment 
+
+![pressfit fusion image](./01_intro/pressfit3D.png)
+This is the 3D render (?) of my pressfit construction that I made in Fusion360 by following Kassia's tutorial.
+
+![pressfit image](./01_intro/pressfit.jpg)
+This is the end result of the pressfit assignment. I cut it out using the laser cutter. It smelled like burnt toast.
+
+![pressfit demo IRL](./01_intro/pressfitDemo.jpg)
+This shows how the pressfit cardboard pieces fit together (they fit!)
 
 </xmp>
 </body>
